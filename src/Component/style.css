@@ -1,0 +1,78 @@
+.NavLink{
+    margin-right: 1rem;
+  font-size: 24px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+}
+
+.Nav{
+    background: #828897;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 26px;
+}
+
+/* .SideBarNav{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    transition: 350ms;
+    z-index: 10;
+} */
+
+.SideBarWrap{
+    width: 100%;
+    background-color: white;
+}
+
+
+/* Sub Menu CSS */
+
+.SideBarLink{
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  list-style: none;
+  height: 60px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.SideBarLink:hover{
+    background: rgb(165, 162, 162);
+    border-left: 4px solid black;
+    cursor: pointer;
+}
+
+.DropdownLink{
+    background: white;
+    height: 60px;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.DropdownLink:hover{
+    background: rgb(165, 162, 162);
+    border-left: 4px solid black;
+    cursor: pointer;
+}
+
+.SideBarLabel{
+    margin-left: 15px;
+}
